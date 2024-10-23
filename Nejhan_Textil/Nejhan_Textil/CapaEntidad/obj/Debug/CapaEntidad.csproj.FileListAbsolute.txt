@@ -1,0 +1,6 @@
+C:\Users\USER\OneDrive\Escritorio\Nejhan_Textil\Nejhan_Textil\CapaEntidad\bin\Debug\Sol_Minimarket.Entidades.dll
+C:\Users\USER\OneDrive\Escritorio\Nejhan_Textil\Nejhan_Textil\CapaEntidad\bin\Debug\Sol_Minimarket.Entidades.pdb
+C:\Users\USER\OneDrive\Escritorio\Nejhan_Textil\Nejhan_Textil\CapaEntidad\obj\Debug\CapaEntidad.csproj.AssemblyReference.cache
+C:\Users\USER\OneDrive\Escritorio\Nejhan_Textil\Nejhan_Textil\CapaEntidad\obj\Debug\CapaEntidad.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Escritorio\Nejhan_Textil\Nejhan_Textil\CapaEntidad\obj\Debug\Sol_Minimarket.Entidades.dll
+C:\Users\USER\OneDrive\Escritorio\Nejhan_Textil\Nejhan_Textil\CapaEntidad\obj\Debug\Sol_Minimarket.Entidades.pdb
