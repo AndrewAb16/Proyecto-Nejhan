@@ -573,7 +573,7 @@
             this.Btn_salidaproductos.Name = "Btn_salidaproductos";
             this.Btn_salidaproductos.Size = new System.Drawing.Size(183, 41);
             this.Btn_salidaproductos.TabIndex = 2;
-            this.Btn_salidaproductos.Text = "Salida de Productos";
+            this.Btn_salidaproductos.Text = "Ventas";
             this.Btn_salidaproductos.UseVisualStyleBackColor = false;
             this.Btn_salidaproductos.Click += new System.EventHandler(this.Btn_salidaproductos_Click);
             // 
@@ -651,12 +651,12 @@
             // 
             // label1
             // 
-            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(347, 23);
+            this.label1.Location = new System.Drawing.Point(493, 20);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(529, 58);
             this.label1.TabIndex = 0;
@@ -842,7 +842,7 @@
             // 
             // panel1
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Location = new System.Drawing.Point(124, 22);

@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Usuarios));
             this.Tbc_principal = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
@@ -70,10 +70,11 @@
             // 
             this.Tbc_principal.Controls.Add(this.tabPage1);
             this.Tbc_principal.Controls.Add(this.tabPage2);
-            this.Tbc_principal.Location = new System.Drawing.Point(12, 49);
+            this.Tbc_principal.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold);
+            this.Tbc_principal.Location = new System.Drawing.Point(12, 80);
             this.Tbc_principal.Name = "Tbc_principal";
             this.Tbc_principal.SelectedIndex = 0;
-            this.Tbc_principal.Size = new System.Drawing.Size(740, 260);
+            this.Tbc_principal.Size = new System.Drawing.Size(740, 290);
             this.Tbc_principal.TabIndex = 0;
             // 
             // tabPage1
@@ -82,10 +83,10 @@
             this.tabPage1.Controls.Add(this.Btn_buscar);
             this.tabPage1.Controls.Add(this.Txt_buscar);
             this.tabPage1.Controls.Add(this.label1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Location = new System.Drawing.Point(4, 26);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(732, 234);
+            this.tabPage1.Size = new System.Drawing.Size(732, 260);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Listado";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -94,18 +95,18 @@
             // 
             this.Dgv_principal.AllowUserToAddRows = false;
             this.Dgv_principal.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Menu;
-            this.Dgv_principal.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Menu;
+            this.Dgv_principal.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
             this.Dgv_principal.BackgroundColor = System.Drawing.SystemColors.ControlLight;
             this.Dgv_principal.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleVertical;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Goldenrod;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Goldenrod;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_principal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Goldenrod;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Goldenrod;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_principal.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.Dgv_principal.ColumnHeadersHeight = 35;
             this.Dgv_principal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.Dgv_principal.EnableHeadersVisualStyles = false;
@@ -134,7 +135,7 @@
             // 
             this.Txt_buscar.Location = new System.Drawing.Point(96, 29);
             this.Txt_buscar.Name = "Txt_buscar";
-            this.Txt_buscar.Size = new System.Drawing.Size(246, 20);
+            this.Txt_buscar.Size = new System.Drawing.Size(246, 23);
             this.Txt_buscar.TabIndex = 1;
             // 
             // label1
@@ -142,7 +143,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(47, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(51, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "Buscar:";
             // 
@@ -160,10 +161,10 @@
             this.tabPage2.Controls.Add(this.Btn_cancelar);
             this.tabPage2.Controls.Add(this.Txt_password_us);
             this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Location = new System.Drawing.Point(4, 26);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(732, 234);
+            this.tabPage2.Size = new System.Drawing.Size(732, 260);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Mantenimiento";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -171,64 +172,64 @@
             // Chk_admin
             // 
             this.Chk_admin.AutoSize = true;
-            this.Chk_admin.Location = new System.Drawing.Point(99, 161);
+            this.Chk_admin.Location = new System.Drawing.Point(376, 153);
             this.Chk_admin.Name = "Chk_admin";
-            this.Chk_admin.Size = new System.Drawing.Size(89, 17);
+            this.Chk_admin.Size = new System.Drawing.Size(116, 21);
             this.Chk_admin.TabIndex = 10;
             this.Chk_admin.Text = "Administrador";
             this.Chk_admin.UseVisualStyleBackColor = true;
             // 
             // Txt_cargo_us
             // 
-            this.Txt_cargo_us.Location = new System.Drawing.Point(99, 134);
+            this.Txt_cargo_us.Location = new System.Drawing.Point(120, 150);
             this.Txt_cargo_us.MaxLength = 50;
             this.Txt_cargo_us.Name = "Txt_cargo_us";
             this.Txt_cargo_us.ReadOnly = true;
-            this.Txt_cargo_us.Size = new System.Drawing.Size(207, 20);
+            this.Txt_cargo_us.Size = new System.Drawing.Size(207, 23);
             this.Txt_cargo_us.TabIndex = 9;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(48, 137);
+            this.label5.Location = new System.Drawing.Point(62, 153);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 13);
+            this.label5.Size = new System.Drawing.Size(47, 17);
             this.label5.TabIndex = 8;
             this.label5.Text = "Cargo:";
             // 
             // Txt_nombres_us
             // 
-            this.Txt_nombres_us.Location = new System.Drawing.Point(99, 108);
+            this.Txt_nombres_us.Location = new System.Drawing.Point(120, 111);
             this.Txt_nombres_us.MaxLength = 100;
             this.Txt_nombres_us.Name = "Txt_nombres_us";
             this.Txt_nombres_us.ReadOnly = true;
-            this.Txt_nombres_us.Size = new System.Drawing.Size(270, 20);
+            this.Txt_nombres_us.Size = new System.Drawing.Size(270, 23);
             this.Txt_nombres_us.TabIndex = 7;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(34, 111);
+            this.label4.Location = new System.Drawing.Point(34, 117);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(59, 13);
+            this.label4.Size = new System.Drawing.Size(80, 17);
             this.label4.TabIndex = 6;
             this.label4.Text = "Nombres(*)";
             // 
             // Txt_login_us
             // 
-            this.Txt_login_us.Location = new System.Drawing.Point(99, 45);
+            this.Txt_login_us.Location = new System.Drawing.Point(120, 42);
             this.Txt_login_us.MaxLength = 20;
             this.Txt_login_us.Name = "Txt_login_us";
             this.Txt_login_us.ReadOnly = true;
-            this.Txt_login_us.Size = new System.Drawing.Size(147, 20);
+            this.Txt_login_us.Size = new System.Drawing.Size(147, 23);
             this.Txt_login_us.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(50, 48);
+            this.label3.Location = new System.Drawing.Point(50, 42);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(43, 13);
+            this.label3.Size = new System.Drawing.Size(59, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Login(*)";
             // 
@@ -237,7 +238,7 @@
             this.Btn_retornar.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.Btn_retornar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_retornar.ForeColor = System.Drawing.Color.White;
-            this.Btn_retornar.Location = new System.Drawing.Point(277, 187);
+            this.Btn_retornar.Location = new System.Drawing.Point(267, 215);
             this.Btn_retornar.Name = "Btn_retornar";
             this.Btn_retornar.Size = new System.Drawing.Size(76, 26);
             this.Btn_retornar.TabIndex = 5;
@@ -251,7 +252,7 @@
             this.Btn_guardar.BackColor = System.Drawing.Color.SteelBlue;
             this.Btn_guardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_guardar.ForeColor = System.Drawing.Color.White;
-            this.Btn_guardar.Location = new System.Drawing.Point(185, 186);
+            this.Btn_guardar.Location = new System.Drawing.Point(185, 215);
             this.Btn_guardar.Name = "Btn_guardar";
             this.Btn_guardar.Size = new System.Drawing.Size(76, 26);
             this.Btn_guardar.TabIndex = 4;
@@ -265,7 +266,7 @@
             this.Btn_cancelar.BackColor = System.Drawing.Color.LightCoral;
             this.Btn_cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_cancelar.ForeColor = System.Drawing.Color.White;
-            this.Btn_cancelar.Location = new System.Drawing.Point(104, 186);
+            this.Btn_cancelar.Location = new System.Drawing.Point(104, 215);
             this.Btn_cancelar.Name = "Btn_cancelar";
             this.Btn_cancelar.Size = new System.Drawing.Size(76, 26);
             this.Btn_cancelar.TabIndex = 3;
@@ -276,32 +277,32 @@
             // 
             // Txt_password_us
             // 
-            this.Txt_password_us.Location = new System.Drawing.Point(99, 71);
+            this.Txt_password_us.Location = new System.Drawing.Point(120, 74);
             this.Txt_password_us.MaxLength = 20;
             this.Txt_password_us.Name = "Txt_password_us";
             this.Txt_password_us.PasswordChar = '*';
             this.Txt_password_us.ReadOnly = true;
-            this.Txt_password_us.Size = new System.Drawing.Size(147, 20);
+            this.Txt_password_us.Size = new System.Drawing.Size(147, 23);
             this.Txt_password_us.TabIndex = 2;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(30, 74);
+            this.label2.Location = new System.Drawing.Point(32, 77);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(63, 13);
+            this.label2.Size = new System.Drawing.Size(82, 17);
             this.label2.TabIndex = 0;
             this.label2.Text = "Password(*)";
             // 
             // Btn_nuevo
             // 
-            this.Btn_nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
+            this.Btn_nuevo.BackColor = System.Drawing.Color.Khaki;
             this.Btn_nuevo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_nuevo.ImageKey = "nuevo.png";
             this.Btn_nuevo.ImageList = this.imageList1;
-            this.Btn_nuevo.Location = new System.Drawing.Point(25, 326);
+            this.Btn_nuevo.Location = new System.Drawing.Point(227, 397);
             this.Btn_nuevo.Name = "Btn_nuevo";
-            this.Btn_nuevo.Size = new System.Drawing.Size(75, 60);
+            this.Btn_nuevo.Size = new System.Drawing.Size(92, 60);
             this.Btn_nuevo.TabIndex = 1;
             this.Btn_nuevo.Text = "Nuevo";
             this.Btn_nuevo.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -320,13 +321,13 @@
             // 
             // Btn_actualizar
             // 
-            this.Btn_actualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
+            this.Btn_actualizar.BackColor = System.Drawing.Color.Khaki;
             this.Btn_actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_actualizar.ImageKey = "actualizar.png";
             this.Btn_actualizar.ImageList = this.imageList1;
-            this.Btn_actualizar.Location = new System.Drawing.Point(106, 326);
+            this.Btn_actualizar.Location = new System.Drawing.Point(337, 397);
             this.Btn_actualizar.Name = "Btn_actualizar";
-            this.Btn_actualizar.Size = new System.Drawing.Size(75, 60);
+            this.Btn_actualizar.Size = new System.Drawing.Size(93, 60);
             this.Btn_actualizar.TabIndex = 2;
             this.Btn_actualizar.Text = "Actualizar";
             this.Btn_actualizar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -335,13 +336,13 @@
             // 
             // Btn_eliminar
             // 
-            this.Btn_eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
+            this.Btn_eliminar.BackColor = System.Drawing.Color.Khaki;
             this.Btn_eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_eliminar.ImageKey = "eliminar.png";
             this.Btn_eliminar.ImageList = this.imageList1;
-            this.Btn_eliminar.Location = new System.Drawing.Point(187, 326);
+            this.Btn_eliminar.Location = new System.Drawing.Point(445, 397);
             this.Btn_eliminar.Name = "Btn_eliminar";
-            this.Btn_eliminar.Size = new System.Drawing.Size(75, 60);
+            this.Btn_eliminar.Size = new System.Drawing.Size(94, 60);
             this.Btn_eliminar.TabIndex = 3;
             this.Btn_eliminar.Text = "Eliminar";
             this.Btn_eliminar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -350,13 +351,13 @@
             // 
             // Btn_reporte
             // 
-            this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
+            this.Btn_reporte.BackColor = System.Drawing.Color.Khaki;
             this.Btn_reporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_reporte.ImageKey = "reporte.png";
             this.Btn_reporte.ImageList = this.imageList1;
-            this.Btn_reporte.Location = new System.Drawing.Point(268, 326);
+            this.Btn_reporte.Location = new System.Drawing.Point(555, 397);
             this.Btn_reporte.Name = "Btn_reporte";
-            this.Btn_reporte.Size = new System.Drawing.Size(75, 60);
+            this.Btn_reporte.Size = new System.Drawing.Size(96, 60);
             this.Btn_reporte.TabIndex = 4;
             this.Btn_reporte.Text = "Reporte";
             this.Btn_reporte.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -365,13 +366,13 @@
             // 
             // Btn_salir
             // 
-            this.Btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(230)))), ((int)(((byte)(154)))));
+            this.Btn_salir.BackColor = System.Drawing.Color.Khaki;
             this.Btn_salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_salir.ImageKey = "salir.png";
             this.Btn_salir.ImageList = this.imageList1;
-            this.Btn_salir.Location = new System.Drawing.Point(349, 326);
+            this.Btn_salir.Location = new System.Drawing.Point(671, 397);
             this.Btn_salir.Name = "Btn_salir";
-            this.Btn_salir.Size = new System.Drawing.Size(75, 60);
+            this.Btn_salir.Size = new System.Drawing.Size(90, 60);
             this.Btn_salir.TabIndex = 5;
             this.Btn_salir.Text = "Salir";
             this.Btn_salir.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -380,31 +381,31 @@
             // 
             // pnl_titulo_form
             // 
-            this.pnl_titulo_form.BackColor = System.Drawing.Color.Tomato;
+            this.pnl_titulo_form.BackColor = System.Drawing.Color.Olive;
             this.pnl_titulo_form.Controls.Add(this.label16);
             this.pnl_titulo_form.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnl_titulo_form.Location = new System.Drawing.Point(0, 0);
             this.pnl_titulo_form.Name = "pnl_titulo_form";
-            this.pnl_titulo_form.Size = new System.Drawing.Size(794, 36);
+            this.pnl_titulo_form.Size = new System.Drawing.Size(806, 53);
             this.pnl_titulo_form.TabIndex = 8;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Microsoft YaHei", 18F, System.Drawing.FontStyle.Bold);
             this.label16.ForeColor = System.Drawing.Color.White;
-            this.label16.Location = new System.Drawing.Point(6, 9);
+            this.label16.Location = new System.Drawing.Point(255, 9);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(228, 18);
+            this.label16.Size = new System.Drawing.Size(311, 31);
             this.label16.TabIndex = 0;
-            this.label16.Text = "USUARIOS DE SISTEMAS";
+            this.label16.Text = "USUARIOS DEL SISTEMA";
             // 
             // Frm_Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(794, 397);
+            this.BackColor = System.Drawing.Color.Tan;
+            this.ClientSize = new System.Drawing.Size(806, 485);
             this.Controls.Add(this.pnl_titulo_form);
             this.Controls.Add(this.Btn_salir);
             this.Controls.Add(this.Btn_reporte);
@@ -412,6 +413,7 @@
             this.Controls.Add(this.Btn_actualizar);
             this.Controls.Add(this.Btn_nuevo);
             this.Controls.Add(this.Tbc_principal);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Frm_Usuarios";
             this.Text = "Usuarios";
             this.Load += new System.EventHandler(this.Frm_Usuarios_Load);
