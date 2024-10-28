@@ -184,3 +184,9 @@ C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\Ca
 C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\Nejhan_Textil.pdb
 C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Almacenes.resources
 C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Rubros.resources
+C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Departamentos.resources
+C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Provincias.resources
+C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Distritos.resources
+C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Proveedores.resources
+C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Productos.resources
+C:\Users\USER\OneDrive\Escritorio\NEJHAN_PROYECTO\Nejhan_Textil\Nejhan_Textil\CapaPresentacion\obj\Debug\CapaPresentacion.Reportes.Frm_Rpt_Entrada_Productos.resources

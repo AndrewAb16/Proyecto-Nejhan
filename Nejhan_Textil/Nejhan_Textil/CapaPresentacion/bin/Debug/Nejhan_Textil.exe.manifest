@@ -618,14 +618,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nejhan_Textil.exe" size="1338368">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Nejhan_Textil.exe" size="1720832">
       <assemblyIdentity name="Nejhan_Textil" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>h7UbI76VDynomFjmVWbeUfTSZ8e36VqT3ZyoAMAcTqk=</dsig:DigestValue>
+        <dsig:DigestValue>sRk44CsuhQKTnUnJCCk9UeP/LwdhywBDX6JJnbRP1+c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

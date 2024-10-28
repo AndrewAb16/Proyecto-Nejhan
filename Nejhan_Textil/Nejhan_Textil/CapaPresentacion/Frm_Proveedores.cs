@@ -450,9 +450,9 @@ namespace CapaPresentacion
 
         private void Btn_reporte_Click(object sender, EventArgs e)
         {
-            //Reportes.Frm_Rpt_Proveedores oRpt_pv = new Reportes.Frm_Rpt_Proveedores();
-            //oRpt_pv.txt_p1.Text = Txt_buscar.Text;
-            //oRpt_pv.ShowDialog();
+            Reportes.Frm_Rpt_Proveedores oRpt_pv = new Reportes.Frm_Rpt_Proveedores();
+            oRpt_pv.txt_p1.Text = Txt_buscar.Text;
+            oRpt_pv.ShowDialog();
         }
 
         private void Btn_salir_Click(object sender, EventArgs e)

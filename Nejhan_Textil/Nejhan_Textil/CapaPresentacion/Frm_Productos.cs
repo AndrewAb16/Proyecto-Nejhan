@@ -403,9 +403,9 @@ namespace CapaPresentacion
 
         private void Btn_reporte_Click(object sender, EventArgs e)
         {
-            //Reportes.Frm_Rpt_Productos oRpt_pr = new Reportes.Frm_Rpt_Productos();
-            //oRpt_pr.txt_p1.Text = Txt_buscar.Text;
-            //oRpt_pr.ShowDialog();
+            Reportes.Frm_Rpt_Productos oRpt_pr = new Reportes.Frm_Rpt_Productos();
+            oRpt_pr.txt_p1.Text = Txt_buscar.Text;
+            oRpt_pr.ShowDialog();
         }
 
         private void Btn_salir_Click(object sender, EventArgs e)

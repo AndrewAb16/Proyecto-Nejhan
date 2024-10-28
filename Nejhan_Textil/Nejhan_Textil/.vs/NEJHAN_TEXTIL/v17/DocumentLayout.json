@@ -1,7 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Escritorio\\NEJHAN_PROYECTO\\Nejhan_Textil\\Nejhan_Textil\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF3A90F0-D2B3-4430-AC47-EAF9ADF69473}|CapaPresentacion\\CapaPresentacion.csproj|c:\\users\\user\\onedrive\\escritorio\\nejhan_proyecto\\nejhan_textil\\nejhan_textil\\capapresentacion\\frm_provincias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{DF3A90F0-D2B3-4430-AC47-EAF9ADF69473}|CapaPresentacion\\CapaPresentacion.csproj|solutionrelative:capapresentacion\\frm_provincias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +27,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Frm_Provincias.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Escritorio\\NEJHAN_PROYECTO\\Nejhan_Textil\\Nejhan_Textil\\CapaPresentacion\\Frm_Provincias.cs",
+              "RelativeDocumentMoniker": "CapaPresentacion\\Frm_Provincias.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Escritorio\\NEJHAN_PROYECTO\\Nejhan_Textil\\Nejhan_Textil\\CapaPresentacion\\Frm_Provincias.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CapaPresentacion\\Frm_Provincias.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T18:35:45.685Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

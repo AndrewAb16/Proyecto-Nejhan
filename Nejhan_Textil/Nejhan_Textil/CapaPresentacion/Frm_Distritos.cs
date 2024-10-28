@@ -249,9 +249,9 @@ namespace CapaPresentacion
 
         private void Btn_reporte_Click(object sender, EventArgs e)
         {
-            //Reportes.Frm_Rpt_Distritos oRpt8 = new Reportes.Frm_Rpt_Distritos();
-            //oRpt8.txt_p1.Text = Txt_buscar.Text;
-            //oRpt8.ShowDialog();
+            Reportes.Frm_Rpt_Distritos oRpt8 = new Reportes.Frm_Rpt_Distritos();
+            oRpt8.txt_p1.Text = Txt_buscar.Text;
+            oRpt8.ShowDialog();
         }
 
         private void Btn_salir_Click(object sender, EventArgs e)
